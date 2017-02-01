@@ -1,0 +1,6 @@
+﻿Enable-Migrations -ContextTypeName CanadaContext -MigrationsDirectory Migrations\CanadaMigrations
+
+add-migration -ConfigurationTypeName CanadaLab.Migrations.CanadaMigrations.Configuration "InitialCreate"
+
+
+update-database -ConfigurationTypeName CanadaLab.Migrations.CanadaMigrations.Configuration
