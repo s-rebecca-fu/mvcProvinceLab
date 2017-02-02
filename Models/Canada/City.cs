@@ -14,6 +14,7 @@ namespace CanadaLab.Models.Canada
         [Display(Name = "City"), Required]
         public string CityName { get; set; }
         public int Popuation { get; set; }
+        [Display(Name = "Province"), Required]
         public string ProvinceCode { get; set; }
         public Province Province { get; set; }
     }
