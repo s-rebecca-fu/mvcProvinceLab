@@ -10,7 +10,7 @@ namespace CanadaLab.Migrations.CanadaMigrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             MigrationsDirectory = @"Migrations\CanadaMigrations";
         }
 
